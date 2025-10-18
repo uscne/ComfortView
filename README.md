@@ -1,6 +1,7 @@
-# ComfortView
+<img width="1280" height="300" alt="Pure text, perfectly readable-2-modified" src="https://github.com/user-attachments/assets/03e71fa5-a87b-48aa-bac5-5d178aca6d50" />
 
-is a simple browser extension that turns any webpage into a clean, text-only reading view and applies design choices backed by readability and accessibility research.
+
+ComfortView is a simple browser extension that turns any webpage into a clean, text-only reading view and applies design choices backed by readability and accessibility research.
 
 **Shortcut key:** `Alt+Shift+Y` or `Command+Shift+Y`
 

@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "ComfortView",
+  "description": "Distraction-free reading designed to be easy on your eyes",
+  "version": "1.0.0",
+  "permissions": ["activeTab", "scripting"],
+
+  "icons": {
+    "16": "images/yumi16.png",
+    "48": "images/yumi48.png",
+    "128": "images/yumi128.png"
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Activate Reader Mode"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Toggle Reader Mode"
+    }
+  },
+  "web_accessible_resources": [{
+    "resources": [
+      "src/lib/Readability.js",
+      "src/content/active-reader-mode.js",
+      "styles/reader-mode.css",
+      "templates/reader-template.html"
+    ],
+    "matches": ["<all_urls>"]
+  }]
+}

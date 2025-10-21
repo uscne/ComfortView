@@ -6,6 +6,5 @@
   <h1>Yumi Reader Privacy Policy</h1>
   <p>Yumi Reader does not collect, store, or share any personal data.</p>
   <p>All processing happens locally on your device. No information is sent to external servers.</p>
-  <p>Last updated: <time>2025-10-18</time></p>
 </main>
 </html>

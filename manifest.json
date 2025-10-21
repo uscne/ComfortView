@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "ComfortView",
+  "name": "Yumi Reader",
   "description": "Distraction-free reading designed to be easy on your eyes",
   "version": "1.0.0",
   "permissions": ["activeTab", "scripting"],

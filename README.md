@@ -1,11 +1,7 @@
 <img width="1280" height="300" alt="Pure text, perfectly readable-2-modified" src="https://github.com/user-attachments/assets/03e71fa5-a87b-48aa-bac5-5d178aca6d50" />
 
 
-[ComfortView](https://chromewebstore.google.com/detail/npojnlhhfjfahofkahkjpljalfmbhcof?utm_source=item-share-cb) is a simple browser extension that turns any webpage into a clean, text-only reading view and applies design choices backed by readability and accessibility research.
-
-**Shortcut key:** `Alt+Shift+Y` or `Command+Shift+Y`
-
-### Design Principles
+it's a simple browser extension that turns any webpage's article into a text-only reading view and applies design choices backed by readability and accessibility research. Built on Mozilla's Readability.js library with custom CSS designed around accessibility and readability studies, it strips webpages down to clean text with:
 
 **Low-glare background**  
 Uses a soft, sepia-like background to cut glare and reduce eye strain during long reading sessions.  
@@ -34,5 +30,7 @@ References:
 - [Siddiqui et al., 2023](https://onlinelibrary.wiley.com/doi/pdf/10.1111/opo.13039)
 
 ### Limitations
+it's designed for reading plain text articles. Because it hides images, tables, and formulas, some pages may lose important context or meaning.  
 
-ComfortView is designed for reading plain text articles. Because it hides images, tables, and formulas, some pages may lose important context or meaning.  
+**Shortcut key:** `Alt+Shift+Y` or `Command+Shift+Y`
+
